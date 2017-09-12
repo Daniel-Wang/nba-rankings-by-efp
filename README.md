@@ -3,8 +3,14 @@
 * To make this possible, I took some data from Yahoo Fantasy Basketball Player stats from the 15-16 and 16-17 seasons
 * I invented my own metric __Effective Points__
 
+# Effective Points
+How effectively used are a player's avg game fantasy points?
+EFP = (games_played / 82) * fantasy_points 
+
 # Results
+*Data here is an average of the past two seasons
 [File](output.txt)
+
 |Player| Games Played | Fantasy Points | Effective Points|
 |---|---|---|---|
 R. Westbrook OKC - PG  | GP: 80.5 | FP: 51.35 | EFP: 50.437804878
