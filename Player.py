@@ -35,9 +35,9 @@ class Player:
         self.points = points
 
     def print_player(self):
-        print (self.name + " " + " | GP: " +
-               str(self.games_played) + " | FP: " +
-               str(self.points) + " | EFP: " + str(self.eff_pts))
+        print (self.name + " " + " | " +
+               str(self.games_played) + " | " +
+               str(self.points) + " | " + str(self.eff_pts))
 
     def set_eff_pts(self, pts):
         self.eff_pts = pts
